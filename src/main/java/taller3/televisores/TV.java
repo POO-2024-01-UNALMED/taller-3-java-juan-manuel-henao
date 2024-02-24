@@ -50,11 +50,11 @@ public void setControl(Control control) {
 	this.control=control;
 }
 
-public int getNumTV() {
+public static int getNumTV() {
 	return numTV;
 }
-public void setNumTV(int numTV) {
-	this.numTV=numTV;
+public static void setNumTV(int num) {
+	numTV=num;
 }
 
 public void turnOn() {
